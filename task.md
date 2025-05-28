@@ -3,15 +3,15 @@
 ## Phase 1: ADK Agent Setup & Core Tool Development
 
 ### P1.T1: Setup ADK Project (Task 1 from Planning)
-- [ ] Initialize a new Python project using Poetry: `poetry init`
-- [ ] Add `google-adk` to `pyproject.toml` and install: `poetry add google-adk`
-- [ ] Add `streamlit` to `pyproject.toml` and install: `poetry add streamlit`
-- [ ] Add `pytest` for testing: `poetry add pytest --group dev`
-- [ ] Create basic project structure (e.g., `src/fitness_diet_advisor_ai`, `tests/`)
-- [ ] Create initial `src/fitness_diet_advisor_ai/__init__.py`
-- [ ] Create initial `src/fitness_diet_advisor_ai/main.py` (for Streamlit app entry point)
-- [ ] Create initial `src/fitness_diet_advisor_ai/agent.py` (for ADK agent logic)
-- [ ] Create initial `src/fitness_diet_advisor_ai/tools.py` (for ADK tool definitions)
+- [x] Initialize a new Python project using Poetry: `poetry init`
+- [x] Add `google-adk` to `pyproject.toml` and install: `poetry add google-adk`
+- [x] Add `streamlit` to `pyproject.toml` and install: `poetry add streamlit`
+- [x] Add `pytest` for testing: `poetry add pytest --group dev`
+- [x] Create basic project structure (e.g., `src/fitness_diet_advisor_ai`, `tests/`)
+- [x] Create initial `src/fitness_diet_advisor_ai/__init__.py`
+- [x] Create initial `src/fitness_diet_advisor_ai/main.py` (for Streamlit app entry point)
+- [x] Create initial `src/fitness_diet_advisor_ai/agent.py` (for ADK agent logic)
+- [x] Create initial `src/fitness_diet_advisor_ai/tools.py` (for ADK tool definitions)
 
 ### P1.T2: Design Data Sources/APIs (Task 2 from Planning)
 - [ ] Research and select a nutrition API (e.g., USDA FoodData Central, Open Food Facts API, Edamam). Document choice and base URL/access method.
@@ -154,11 +154,11 @@
 - [ ] Ensure logs are visible when running locally and consider how they would be accessed in a deployed environment.
 
 ### P4.T5: Update README.md (Task from Planning)
-- [ ] Add detailed setup instructions (Poetry, Python version, environment variables if any).
-- [ ] Add instructions on how to run the application locally (e.g., `poetry run streamlit run ...`).
-- [ ] Add instructions on how to run tests (`poetry run pytest .`).
-- [ ] (If applicable) Add instructions for building/running the Docker container.
-- [ ] Briefly describe the project architecture and key components.
+- [x] Add detailed setup instructions (Poetry, Python version, environment variables if any).
+- [x] Add instructions on how to run the application locally (e.g., `poetry run streamlit run ...`).
+- [x] Add instructions on how to run tests (`poetry run pytest .`).
+- [x] (If applicable) Add instructions for building/running the Docker container.
+- [x] Briefly describe the project architecture and key components.
 
 ## General Tasks (Throughout Project)
 - [ ] Commit changes to Git regularly with descriptive messages.

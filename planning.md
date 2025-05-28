@@ -42,8 +42,8 @@ To create an AI-powered chatbot using the Google ADK (Python) that provides user
 **ADK Focus:** Define `Agent`, register custom Python functions as `tools`, basic `Runner` setup.
 **Tasks:**
 1.  **Setup ADK Project:**
-    -   Initialize Python project (Poetry).
-    -   Install `google-adk` and other necessary libraries (e.g., `streamlit`).
+    -   [x] Initialize Python project (Poetry).
+    -   [x] Install `google-adk` and other necessary libraries (e.g., `streamlit`).
 2.  **Design Data Sources/APIs:** Identify and evaluate APIs or data sources for nutrition (e.g., USDA FoodData Central, Open Food Facts) and exercise (e.g., WGER Workout Manager).
 3.  **Develop Food Information Tool (ADK compatible):**
     -   Create a Python function `get_nutritional_info(food_item: str) -> dict`.
@@ -122,7 +122,7 @@ To create an AI-powered chatbot using the Google ADK (Python) that provides user
 -   Containerization (Docker with Poetry).
 -   Deployment strategy.
 -   Implement comprehensive logging (Python logging package).
--   Update `README.md` thoroughly.
+-   [x] Update `README.md` thoroughly.
 
 **Milestones:**
 -   Application packaged in a Docker container.
